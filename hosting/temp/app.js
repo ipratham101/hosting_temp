@@ -98,7 +98,7 @@ app.use(express.static('public')); // Serve static files from the 'public' direc
 
 
 // API endpoint to receive data from the student page
-app.post('/api/data', (req, res) => {
+app.post('/home/teacher', (req, res) => {
     const data = req.body;
 
     // Broadcast the received data to all connected clients (teacher page)

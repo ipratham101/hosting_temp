@@ -118,7 +118,7 @@ tableBody.appendChild(newRow);
     <script>
         const fetchData = async () => {
             try {
-                const response = await fetch('/api/realtime-data');
+                const response = await fetch('/home/teacher');
                 const data = await response.json();
 
                 // Clear the existing table body
